@@ -23,3 +23,15 @@ button{
 #select{
   display: none;
 }
+#img1{
+  position: absolute;
+  left: 30px;
+  top: 300px;
+  display: inline-block;
+}
+#img2{
+  position: absolute;
+  right: 100px;
+  top: 300px;
+  display: inline-block;
+}

@@ -16,14 +16,14 @@ $('select').click(function(){
   //   var id=$(this).attr("class");
   //   console.log(id);
   // })
-  var value= $('select option:selected').val();
+  var value= $(this).children("option:selected").val();
   var ninjaArr=["donny.png","leo.png","mikey.png","raphael.png"];
   if($(this).attr("id")=="left"){
-    $("#background").append("<img src='dojo_arena_photos/"+ninjaArr[value]+"'>");
+    document.getElementById("img1").innerHTML="<img src='dojo_arena_photos/"+ninjaArr[value]+"'>";
 
   }
   else {
-    $("#background").append("<img src='dojo_arena_photos/"+ninjaArr[value]+"'>");
-
+    // $("#background").append("<img src='dojo_arena_photos/"+ninjaArr[value]+"'>");
+    document.getElementById("img2").innerHTML="<img src='dojo_arena_photos/"+ninjaArr[value]+"'>";
   }
 })
