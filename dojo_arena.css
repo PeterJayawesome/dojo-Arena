@@ -1,0 +1,25 @@
+body{
+  background: black;
+  /*width: 100%;*/
+  /*height: 99%;*/
+}
+#menu, #select{
+
+  background: lightgray;
+  height: 250px;
+  width: 400px;
+  border: 5px solid gray;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px;
+  left:500px;
+  text-align: center;
+}
+button{
+  width: 120px;
+  height: 40px;
+  margin-top:10px;
+}
+#select{
+  display: none;
+}
